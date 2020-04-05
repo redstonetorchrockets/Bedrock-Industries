@@ -4,12 +4,12 @@
         "name": "Technic Addon",
         "description": "This is an Addon, which content is the same good as the name!",
         "uuid": "49bb31bc-76a5-11ea-bc55-0242ac130003",
-        "version": [0, 0, 1]
+        "version": [0, 0, 2]
     },
     "modules": [{
         "description": "This is an Addon, which content is the same good as the name!",
         "type": "data",
         "uuid": "49bb31bc-76a5-11ea-bc55-0242ac130004",
-        "version": [0, 0, 1]
+        "version": [0, 0, 2]
     }]
 }
