@@ -1,0 +1,17 @@
+{
+    "format_version" : "1.8.0",
+	"animation_controllers":{
+
+        "controller.animation.player": {
+            "states": {
+                  "play": {"on_entry": [
+            "/say Test"
+                ]
+              },
+                  "default": {
+                   "transitions": [ 
+            { "play":"query.variant == 1"}
+                ]
+        }   }   }
+    }
+}
