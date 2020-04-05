@@ -2,8 +2,8 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "bedrockindustries:overworld_underground_tin_ore_feature",
-      "places_feature": "bedrockindustries:tin_ore_feature"
+      "identifier": "bedrockindustries:overworld_underground_copper_ore_feature",
+      "places_feature": "bedrockindustries:copper_ore_feature"
     },
     "conditions": {
       "placement_pass": "underground_pass",
@@ -33,7 +33,7 @@
       },
       "y": {
         "distribution": "uniform",
-        "extent": [ 25, 50 ]
+        "extent": [ 40, 75 ]
       },
       "z": {
         "distribution": "uniform",
