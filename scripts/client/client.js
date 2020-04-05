@@ -24,7 +24,7 @@ clientSystem.onLookingInfo = function(eventData) {
     let player = eventData.data.player;
 
     if (player.id == globals.me.id) {
-        clientSystem.sendMsg(blockId);
+        // clientSystem.sendMsg(blockId);
         let sendData = clientSystem.createEventData("minecraft:send_ui_event");
         sendData.data.eventIdentifier = "updateInfo";
         sendData.data.data = blockId;
