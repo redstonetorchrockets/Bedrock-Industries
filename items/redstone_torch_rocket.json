@@ -6,8 +6,20 @@
         },
 
         "components": {
-            "minecraft:stacked_by_data": true
-            
+            "using_converts_to" : "minecraft:apple",
+            "minecraft:stacked_by_data": true,
+            "minecraft:hand_equipped" : true,
+            "minecraft:max_stack_size" : 16,
+            "minecraft:use_duration" : 5,
+            "minecraft:food" : {
+                "on_use_action" : "chorus_teleport",
+                "cooldown_type" : "chorusfruit",
+                "cooldown_time" : 10
+            },
+            "minecraft:seed": {                                  
+                "crop_result": "sweet_berry_bush",         
+                "plant_at": ["grass","dirt","podzol"] 
+              }                                                       
         }
     }
 }
