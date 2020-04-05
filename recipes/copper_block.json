@@ -1,0 +1,24 @@
+{
+  "format_version": "1.15",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "bedrockindustries:copper_block"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "bedrockindustries:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "bedrockindustries:copper_block"
+    }
+  }
+}
